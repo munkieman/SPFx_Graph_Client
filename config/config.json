@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-first-graph-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myFirstGraph/MyFirstGraphWebPart.js",
+          "manifest": "./src/webparts/myFirstGraph/MyFirstGraphWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyFirstGraphWebPartStrings": "lib/webparts/myFirstGraph/loc/{locale}.js"
+  }
+}
